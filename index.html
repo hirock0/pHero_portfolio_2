@@ -1,321 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
-</head>
-<body  style=" ">
-    <header style="max-width:1600px; margin: 0 auto;" class="   overflow-hidden header  pb-10 lg:pb-0 relative pt-10  flex">
-        <div class=" hidden lg:block pb-10">
-            <img src="/images/developer.png" alt="developer" width="100%" height="100%">
-        </div> 
+  </head>
+  <body style="">
+    <header
+      style="max-width: 1600px; margin: 0 auto"
+      class="overflow-hidden header pb-10 lg:pb-0 relative pt-10 flex"
+    >
+      <div class="hidden lg:block pb-10">
+        <img
+          src="/images/developer.png"
+          alt="developer"
+          width="100%"
+          height="100%"
+        />
+      </div>
 
-        <div class=" w-full lg:pl-10 pl-5">
+      <div class="w-full lg:pl-10 pl-5">
+        <nav class="h-fit lg:w-5/6 pr-5 flex items-center justify-between">
+          <div class="">
+            <h1 class="text-4xl font-semibold">
+              Ma<span class="text-orange-500">r</span>y
+            </h1>
+          </div>
+          <div class="">
+            <ul class="flex items-center lg:gap-10 gap-5 max-sm:gap-2">
+              <a href="">
+                <li>Portfolio</li>
+              </a>
+              <a href="">
+                <li>Blog</li>
+              </a>
+              <button
+                class="text-white font-semibold lg:w-32 w-28 max-sm:w-20 max-sm:h-10 h-12 bg-orange-500 rounded-md"
+              >
+                Hire me
+              </button>
+            </ul>
+          </div>
+        </nav>
+        <div class="h-full flex lg:flex-row flex-col-reverse">
+          <div
+            class="pb-10 lg:pb-0 lg:h-full lg:w-2/5 lg:h-2/5 flex items-center justify-center"
+          >
+            <div class="mt-5 lg:mt-0">
+              <div class="">
+                <h1 class="text-3xl font-semibold">Hi, I am</h1>
+                <h1 class="text-6xl font-semibold">Mary Hardy</h1>
+                <p class="opacity-80 mt-5">
+                  Shot what able cold new see hold.Friendly as an betrayed
+                  formerly he. Morning because as to society behaved moments.
+                </p>
+              </div>
 
-            <nav class="  h-fit lg:w-5/6 pr-5 flex items-center justify-between ">
-                    <div class="">
-                        <h1 class=" text-4xl font-semibold ">Ma<span class=" text-orange-500">r</span>y</h1>
-                    </div>
-                    <div class="">
-                        <ul class=" flex items-center lg:gap-10 gap-5 max-sm:gap-2">
-                            <a href="">
-                                <li>Portfolio</li>
-                            </a>
-                            <a href="">
-                                <li>Blog</li>
-                            </a>
-                            <button class=" text-white font-semibold lg:w-32 w-28 max-sm:w-20 max-sm:h-10 h-12 bg-orange-500 rounded-md">
-                                Hire me
-                            </button>
-                        </ul>
-                    </div>
-            </nav>
-            <div class=" h-full flex lg:flex-row flex-col-reverse">
+              <div class="mt-5">
+                <div class="flex gap-5 max-sm:text-xs">
+                  <button
+                    class="flex items-center justify-center gap-2 bg-orange-500 text-white w-40 max-sm:w-36 lg:h-12 h-10 rounded-md"
+                  >
+                    <svg
+                      class="h-5 w-5 max-sm:w-4 max-sm-h-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"
+                      ></path>
+                    </svg>
 
-                <div class=" pb-10  lg:pb-0 lg:h-full lg:w-2/5  lg:h-2/5 flex items-center justify-center">
-                    <div class=" mt-5 lg:mt-0">
-                        <div class="">
-                            <h1 class="text-3xl font-semibold">Hi, I am</h1>
-                            <h1 class=" text-6xl  font-semibold">Mary Hardy</h1>
-                            <p class=" opacity-80 mt-5 ">
-                                Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
-                            </p>
-                        </div>
-                        
-                        <div class=" mt-5 ">
-                            <div class=" flex gap-5 max-sm:text-xs">
-                            <button class=" flex items-center justify-center gap-2 bg-orange-500 text-white  w-40 max-sm:w-36 lg:h-12 h-10  rounded-md">
-                                <svg class=" h-5 w-5 max-sm:w-4 max-sm-h-4 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"></path></svg>   
-                                
-                                Download CV
-                                </button >
-                                <button class=" flex items-center justify-center  gap-3 font-semibold border text-orange-500 border-orange-500 w-36 max-sm:w-32 lg:h-12 h-10  rounded-md">
-                                    <svg class=" h-5 w-5 max-sm:w-4 max-sm-h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z"></path></svg>
-                                    Contact
-                                </button>
-                        </div>
-                        </div>
-                    </div>
+                    Download CV
+                  </button>
+                  <button
+                    class="flex items-center justify-center gap-3 font-semibold border text-orange-500 border-orange-500 w-36 max-sm:w-32 lg:h-12 h-10 rounded-md"
+                  >
+                    <svg
+                      class="h-5 w-5 max-sm:w-4 max-sm-h-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z"
+                      ></path>
+                    </svg>
+                    Contact
+                  </button>
                 </div>
-
-                <div class=" relative flex items-end h-full  justify-end">
-                        
-                         <img src="/images/header_bg.png" alt="img" class="">
-                    
-                        <img src="/images/hardy.png" alt="img" class="absolute bottom-0 right-10  w-3/6 lg:w-4/6">
-                </div>
-
+              </div>
             </div>
+          </div>
 
+          <div class="relative flex items-end h-full justify-end">
+            <img src="/images/header_bg.png" alt="img" class="" />
+
+            <img
+              src="/images/hardy.png"
+              alt="img"
+              class="absolute bottom-0 right-10 w-3/6 lg:w-4/6"
+            />
+          </div>
         </div>
-      
+      </div>
     </header>
-    <main  class=" bg-slate-100 flex justify-center" style="max-width:1600px; margin: 0 auto;font-size: 2vmin;" >
-        <section class=" w-5/6  pb-10 " >
-         <!-- first_div_start -->
-            <div class="  mt-20 max-sm:mt-10 p-20 max-md:p-5 rounded-md" style="background: rgb(255, 248, 243);">
-                    <div class=" border border-black p-5 bg-white " >
-                        <h1 class="text-center text-3xl font-semibold">About Me</h1>
-                        <p class="  opacity-60 mt-5 max-sm:text-sm">
-                            I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata. 
-                        </p>
-                        <ul class=" mt-5 flex justify-between ">
-                            <li class=" flex flex-col items-center">
-                               <span class="opacity-60">Name:</span>
-                               <span class=" font-semibold">Mary Hardy</span>
-                            </li>
-                            <li class=" flex flex-col items-center">
-                                <span class="opacity-60">Email:</span>
-                                <span class=" font-semibold">info@gmail.com</span>
-                             </li>
-                             <li class=" flex flex-col items-center">
-                                <span class="opacity-60">Date of birth:</span>
-                                <span class=" font-semibold">11 November 1987</span>
-                             </li>
-                             <li class=" flex flex-col items-center">
-                                <span class="opacity-60">Form:</span>
-                                <span class=" font-semibold">Los Angeles USA</span>
-                             </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- first_div_end -->
-                 <!-- =========================================================== -->
-                  <!-- second_div_start -->
+    <main
+      class="bg-slate-100 flex justify-center"
+      style="max-width: 1600px; margin: 0 auto; font-size: 2vmin"
+    >
+      <section class="w-5/6 pb-10">
+        <!-- first_div_start -->
+        <div
+          class="mt-20 max-sm:mt-10 p-20 max-md:p-5 rounded-md"
+          style="background: rgb(255, 248, 243)"
+        >
+          <div class="border border-black p-5 bg-white">
+            <h1 class="text-center text-3xl font-semibold">About Me</h1>
+            <p class="opacity-60 mt-5 max-sm:text-sm">
+              I, m a designer & developer with a passion for web design. I enjoy
+              developing simple, clean and slick websites that provide real
+              value to the end user. Thousands of clients have procured
+              exceptional resulfs while working with me. Delivering work within
+              time and budget which meets clients requirements in our mata.
+            </p>
+            <ul class="mt-5 flex justify-between">
+              <li class="flex flex-col items-center">
+                <span class="opacity-60">Name:</span>
+                <span class="font-semibold">Mary Hardy</span>
+              </li>
+              <li class="flex flex-col items-center">
+                <span class="opacity-60">Email:</span>
+                <span class="font-semibold">info@gmail.com</span>
+              </li>
+              <li class="flex flex-col items-center">
+                <span class="opacity-60">Date of birth:</span>
+                <span class="font-semibold">11 November 1987</span>
+              </li>
+              <li class="flex flex-col items-center">
+                <span class="opacity-60">Form:</span>
+                <span class="font-semibold">Los Angeles USA</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- first_div_end -->
+        <!-- =========================================================== -->
+        <!-- second_div_start -->
 
-                    <div class=" mt-10 flex justify-center">
-                        <div class="  lg:w-4/6 max-sm:w-5/6">
-                           <h1 class=" text-center text-2xl font-semibold">What I do</h1>
-                           <p class=" mt-5 opacity-90  font-thin max-sm:text-sm">
-                            I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.
-                           </p>
-                        </div>
-                    </div>
+        <div class="mt-10 flex justify-center">
+          <div class="lg:w-4/6 max-sm:w-5/6">
+            <h1 class="text-center text-2xl font-semibold">What I do</h1>
+            <p class="mt-5 opacity-90 font-thin max-sm:text-sm">
+              I have more than 10 years experience building software for clients
+              all over the world. Below is a quick overview of my main technical
+              skill sets and technologies i use. Want to find out more about my
+              experience? Check out my online resume and project portfolio.
+            </p>
+          </div>
+        </div>
 
-                  <!-- second_div_end -->
-                   <!-- ========================================================= -->
-                    <!-- third_section_start -->
-                        <section class=" flex justify-center">
-                                <div class="  mt-10 grid lg:grid-cols-4 grid-cols-2 max-sm:grid-cols-1  gap-5">
-                                   <!-- ============================================ -->
-                                    <!-- card_1 -->
-                                    <div style=" box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233);" class=" p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm">
-                                        <div class="">
-                                            <img class=" border border-black border-dashed" src="/images/icons/js.png" alt="facebook">
-                                        </div>
-                                        <div class=" mt-5">
-                                            <h1 class=" font-semibold text-xl">Vanilla JavaScript</h1>
-                                            <p class=" mt-5 max-sm:text-sm opacity-80">
-                                                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- card_1 -->
-                                     <!-- ======================================== -->
-                                   <!-- ============================================ -->
-                                    <!-- card_2 -->
-                                    <div style=" box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233);" class=" p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm">
-                                        <div class="">
-                                            <img class=" border border-black border-dashed" src="/images/icons/react.png" alt="facebook">
-                                        </div>
-                                        <div class=" mt-5">
-                                            <h1 class=" font-semibold text-xl">Vanilla JavaScript</h1>
-                                            <p class=" mt-5 max-sm:text-sm opacity-80">
-                                                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- card_2 -->
-                                     <!-- ======================================== -->
-                                                                         <!-- ============================================ -->
-                                    <!-- card_3 -->
-                                    <div style=" box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233);" class=" p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm">
-                                        <div class="">
-                                            <img class=" border border-black border-dashed" src="/images/icons/nodejs.png" alt="facebook">
-                                        </div>
-                                        <div class=" mt-5">
-                                            <h1 class=" font-semibold text-xl">Vanilla JavaScript</h1>
-                                            <p class=" mt-5 max-sm:text-sm opacity-80">
-                                                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- card_3 -->
-                                     <!-- ======================================== -->
-                                                                         <!-- ============================================ -->
-                                    <!-- card_4 -->
-                                    <div style=" box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233);" class=" p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm">
-                                        <div class="">
-                                            <img src="/images/icons/mongo.png" alt="facebook">
-                                        </div>
-                                        <div class=" mt-5">
-                                            <h1 class=" font-semibold text-xl">Vanilla JavaScript</h1>
-                                            <p class=" mt-5 max-sm:text-sm opacity-80">
-                                                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- card_4 -->
-                                     <!-- ======================================== -->
-                                </div>
-                        </section>
-
-                    <!-- third_section_end -->
-                     <!-- ==================================================== -->
-                      <!-- fourth_section_star -->
-
-                        <section class=" mt-10">
-                            <h1 class=" text-2xl text-center font-semibold">A summary of My Resume</h1>
-                            
-
-                            
-                            <div class="mt-10 flex gap-5">
-
-                                <!-- left_part_start -->
-                                 <div class=" w-1/2 ">
-                                    <h1 class=" text-xl font-semibold">My Education</h1>
-                                    <!-- ===================================================================== -->
-                                        <!-- box_1_start -->
-                                                <div class=" border-b border-b-black pt-5 pb-5">
-                                                   
-                                                    <div class="">
-                                                        <h1 class="text-base font-semibold">Master in Computer Engineering</h1>
-                                                        <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
-                                                        <p class=" mt-5 text-xs opacity-80">
-                                                            List skill/technologies here. You can change the icon above 
-                                                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                             <!-- box_1_end -->
-                                              <!-- ======================================================================= -->
-                                                                                   <!-- ===================================================================== -->
-                                        <!-- box_1_start -->
-                                        <div class=" border-b border-b-black pt-5 pb-5">
-                                            <h1 class=" text-xl font-semibold">My Education</h1>
-                                            <div class="">
-                                    
-                                                <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
-                                                <p class="mt-5 text-xs opacity-80">
-                                                    List skill/technologies here. You can change the icon above 
-                                                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                                </p>
-                                            </div>
-                                        </div>
-                                     <!-- box_1_end -->
-                                      <!-- ======================================================================= -->
-                                                                           <!-- ===================================================================== -->
-                                        <!-- box_1_start -->
-                                        <div class=" border-b border-b-black pt-5 pb-5">
-                                        
-                                            <div class="">
-                                                <h1 class="text-base font-semibold">Master in Computer Engineering</h1>
-                                                <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
-                                                <p class="mt-5 text-xs opacity-80">
-                                                    List skill/technologies here. You can change the icon above 
-                                                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                                </p>
-                                            </div>
-                                        </div>
-                                     <!-- box_1_end -->
-                                      <!-- ======================================================================= -->
-                                       
-                                     </div>
-                                <!-- left_part_end -->
-
-
-                                <!-- right_part_start -->
-                                <div class=" w-1/2 ">
-                                    <h1 class=" text-xl font-semibold">My Education</h1>
-                                    <!-- ===================================================================== -->
-                                        <!-- box_1_start -->
-                                                <div class=" border-b border-b-black pt-5 pb-5">
-                                                   
-                                                    <div class="">
-                                                        <h1 class="text-base font-semibold">Master in Computer Engineering</h1>
-                                                        <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
-                                                        <p class="mt-5 text-xs opacity-80">
-                                                            List skill/technologies here. You can change the icon above 
-                                                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                             <!-- box_1_end -->
-                                              <!-- ======================================================================= -->
-                                                                                   <!-- ===================================================================== -->
-                                        <!-- box_1_start -->
-                                        <div class=" border-b border-b-black pt-5 pb-5">
-                                            <h1 class=" text-xl font-semibold">My Education</h1>
-                                            <div class="">
-                                    
-                                                <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
-                                                <p class="mt-5 text-xs opacity-80">
-                                                    List skill/technologies here. You can change the icon above 
-                                                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                                </p>
-                                            </div>
-                                        </div>
-                                     <!-- box_1_end -->
-                                      <!-- ======================================================================= -->
-                                                                           <!-- ===================================================================== -->
-                                        <!-- box_1_start -->
-                                        <div class=" border-b border-b-black pt-5 pb-5">
-                                        
-                                            <div class="">
-                                                <h1 class="text-base font-semibold">Master in Computer Engineering</h1>
-                                                <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
-                                                <p class="mt-5 text-xs opacity-80">
-                                                    List skill/technologies here. You can change the icon above 
-                                                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                                                </p>
-                                            </div>
-                                        </div>
-                                     <!-- box_1_end -->
-                                      <!-- ======================================================================= -->
-                                       
-                                     </div>
-                                <!-- right_part_end -->
-
-
-                            </div>
-                            <div class=" mt-10 flex justify-center items-center">
-                                <button class=" flex items-center justify-center gap-2 bg-orange-500 text-white  w-40 max-sm:w-36 lg:h-12 h-10  rounded-md">
-                                    <svg class=" h-5 w-5 max-sm:w-4 max-sm-h-4 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"></path></svg>   
-                                    
-                                    Download CV
-                                    </button >
-                             </div>
-                        </section>
-                      <!-- fourth_section_end -->
-                       <!-- ============================================================ -->
-                        
+        <!-- second_div_end -->
+        <!-- ========================================================= -->
+        <!-- third_section_start -->
+        <section class="flex justify-center">
+          <div
+            class="mt-10 grid lg:grid-cols-4 grid-cols-2 max-sm:grid-cols-1 gap-5"
+          >
+            <!-- ============================================ -->
+            <!-- card_1 -->
+            <div
+              style="box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233)"
+              class="p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm"
+            >
+              <div class="">
+                <img
+                  class="border border-black border-dashed"
+                  src="/images/icons/js.png"
+                  alt="facebook"
+                />
+              </div>
+              <div class="mt-5">
+                <h1 class="font-semibold text-xl">Vanilla JavaScript</h1>
+                <p class="mt-5 max-sm:text-sm opacity-80">
+                  List skill/technologies here. You can change the icon above to
+                  any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            <!-- card_1 -->
+            <!-- ======================================== -->
+            <!-- ============================================ -->
+            <!-- card_2 -->
+            <div
+              style="box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233)"
+              class="p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm"
+            >
+              <div class="">
+                <img
+                  class="border border-black border-dashed"
+                  src="/images/icons/react.png"
+                  alt="facebook"
+                />
+              </div>
+              <div class="mt-5">
+                <h1 class="font-semibold text-xl">Vanilla JavaScript</h1>
+                <p class="mt-5 max-sm:text-sm opacity-80">
+                  List skill/technologies here. You can change the icon above to
+                  any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            <!-- card_2 -->
+            <!-- ======================================== -->
+            <!-- ============================================ -->
+            <!-- card_3 -->
+            <div
+              style="box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233)"
+              class="p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm"
+            >
+              <div class="">
+                <img
+                  class="border border-black border-dashed"
+                  src="/images/icons/nodejs.png"
+                  alt="facebook"
+                />
+              </div>
+              <div class="mt-5">
+                <h1 class="font-semibold text-xl">Vanilla JavaScript</h1>
+                <p class="mt-5 max-sm:text-sm opacity-80">
+                  List skill/technologies here. You can change the icon above to
+                  any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            <!-- card_3 -->
+            <!-- ======================================== -->
+            <!-- ============================================ -->
+            <!-- card_4 -->
+            <div
+              style="box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.233)"
+              class="p-5 bg-white lg:h-96 h-80 lg:w-52 sm:w-64 max-sm:w-72 rounded-sm"
+            >
+              <div class="">
+                <img src="/images/icons/mongo.png" alt="facebook" />
+              </div>
+              <div class="mt-5">
+                <h1 class="font-semibold text-xl">Vanilla JavaScript</h1>
+                <p class="mt-5 max-sm:text-sm opacity-80">
+                  List skill/technologies here. You can change the icon above to
+                  any of the 1500+ FontAwesome 5 free icons available. Aenean
+                  commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            <!-- card_4 -->
+            <!-- ======================================== -->
+          </div>
         </section>
-    </main>
-    <footer>
 
+        <!-- third_section_end -->
+        <!-- ==================================================== -->
+        <!-- fourth_section_star -->
+
+        <section class="mt-10">
+          <h1 class="text-2xl text-center font-semibold">
+            A summary of My Resume
+          </h1>
+
+          <div class="mt-10 flex gap-5">
+            <!-- left_part_start -->
+            <div class="w-1/2">
+              <h1 class="text-xl font-semibold">My Education</h1>
+              <!-- ===================================================================== -->
+              <!-- box_1_start -->
+              <div class="border-b border-b-black pt-5 pb-5">
+                <div class="">
+                  <h1 class="text-base font-semibold">
+                    Master in Computer Engineering
+                  </h1>
+                  <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
+                  <p class="mt-5 text-xs opacity-80">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </div>
+              <!-- box_1_end -->
+              <!-- ======================================================================= -->
+              <!-- ===================================================================== -->
+              <!-- box_1_start -->
+              <div class="border-b border-b-black pt-5 pb-5">
+                <h1 class="text-xl font-semibold">My Education</h1>
+                <div class="">
+                  <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
+                  <p class="mt-5 text-xs opacity-80">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </div>
+              <!-- box_1_end -->
+              <!-- ======================================================================= -->
+              <!-- ===================================================================== -->
+              <!-- box_1_start -->
+              <div class="border-b border-b-black pt-5 pb-5">
+                <div class="">
+                  <h1 class="text-base font-semibold">
+                    Master in Computer Engineering
+                  </h1>
+                  <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
+                  <p class="mt-5 text-xs opacity-80">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </div>
+              <!-- box_1_end -->
+              <!-- ======================================================================= -->
+            </div>
+            <!-- left_part_end -->
+
+            <!-- right_part_start -->
+            <div class="w-1/2">
+              <h1 class="text-xl font-semibold">My Education</h1>
+              <!-- ===================================================================== -->
+              <!-- box_1_start -->
+              <div class="border-b border-b-black pt-5 pb-5">
+                <div class="">
+                  <h1 class="text-base font-semibold">
+                    Master in Computer Engineering
+                  </h1>
+                  <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
+                  <p class="mt-5 text-xs opacity-80">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </div>
+              <!-- box_1_end -->
+              <!-- ======================================================================= -->
+              <!-- ===================================================================== -->
+              <!-- box_1_start -->
+              <div class="border-b border-b-black pt-5 pb-5">
+                <h1 class="text-xl font-semibold">My Education</h1>
+                <div class="">
+                  <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
+                  <p class="mt-5 text-xs opacity-80">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </div>
+              <!-- box_1_end -->
+              <!-- ======================================================================= -->
+              <!-- ===================================================================== -->
+              <!-- box_1_start -->
+              <div class="border-b border-b-black pt-5 pb-5">
+                <div class="">
+                  <h1 class="text-base font-semibold">
+                    Master in Computer Engineering
+                  </h1>
+                  <h1 class="text-sm">Harvard University / 2015 - 2017</h1>
+                  <p class="mt-5 text-xs opacity-80">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </div>
+              <!-- box_1_end -->
+              <!-- ======================================================================= -->
+            </div>
+            <!-- right_part_end -->
+          </div>
+          <div class="mt-10 flex justify-center items-center">
+            <button
+              class="flex items-center justify-center gap-2 bg-orange-500 text-white w-40 max-sm:w-36 lg:h-12 h-10 rounded-md"
+            >
+              <svg
+                class="h-5 w-5 max-sm:w-4 max-sm-h-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"
+                ></path>
+              </svg>
+
+              Download CV
+            </button>
+          </div>
+        </section>
+        <!-- fourth_section_end -->
+        <!-- ============================================================ -->
+      </section>
+    </main>
+    <footer
+      class="flex p-20 gap-5 max-sm:flex-col max-sm:justify-center max-sm:items-center"
+      style="width: 100%; background-color: rgb(255, 248, 243)"
+    >
+      <div class="w-1/2 max-sm:w-full flex items-center justify-center">
+        <div class="h-full">
+          <h1 class="text-xl font-semibold">Lets Connect</h1>
+          <p class="mt-5">
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+          <ul class="flex gap-2 mt-5">
+            <a href=""
+              ><li>
+                <img
+                  class="border border-black border-dashed"
+                  src="/images/icons/facebook.png"
+                  alt="img"
+                /></li
+            ></a>
+            <a href=""
+              ><li>
+                <img
+                  class="border border-black border-dashed"
+                  src="/images/icons/twitter.png"
+                  alt="img"
+                /></li
+            ></a>
+            <a href=""
+              ><li>
+                <img
+                  class="border border-black border-dashed"
+                  src="/images/icons/insta.png"
+                  alt="img"
+                /></li
+            ></a>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="max-sm:w-full w-1/2 max-sm:mt-10 flex items-center justify-center"
+      >
+        <div class="max-sm:w-full w-5/6">
+          <h1 class="text-xl font-semibold">Let's Message me</h1>
+          <form class="flex flex-col gap-5 mt-5">
+            <input
+              class="border-0 rounded-md h-12"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your name"
+            />
+            <input
+              class="border-0 rounded-md h-12"
+              type="email"
+              name="email"
+              id="emil"
+              placeholder="Your email"
+            />
+            <textarea
+              class="border-0 rounded-md h-32"
+              name="textarea"
+              id="textarea"
+              placeholder="Message"
+            ></textarea>
+            <button class="text-white h-10 w-32 bg-orange-500 rounded-sm">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
